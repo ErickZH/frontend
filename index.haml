@@ -5,7 +5,11 @@
 		%title La mejor comida del mundo
 		%meta{name:"description", content:"Come rico y barato en el mejor restaurante de la ciudad, servicio de primera. Los mejores tacos de pastor de la ciudad."}
 		%link{rel:"stylesheet", href:"css/normalize.css"}
+		%link{rel:"stylesheet", href:"css/style.css"}
 		%meta{name:"viewport", content:"width=device-width, initial-scale=1"}
 		%script{src:"js/vendor/modernizr-3.5.0.min.js"}
 	%body
-		%p León
+		.video-container
+			%video{autoplay:true, loop:true}
+				%source{src:"videos/mp4/Cut-n-Paste.mp4", typ:"video/mp4"}
+				%source{src:"videos/webm/Cut-n-Paste.webm", typ:"video/webm"}
